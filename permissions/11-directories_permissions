@@ -1,2 +1,7 @@
 #!/bin/bash
-for dir in */ ; do chmod a+x "$dir" ; done;
+#!/bin/bash
+for dir in */
+do
+    chmod a+x "$dir"
+done
+
